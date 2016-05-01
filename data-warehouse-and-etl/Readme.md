@@ -20,4 +20,5 @@ DATA WAREHOUSE AND ETL	[Author: Anamik Paul, Email: anamikpaul@gmail.com]
 				(b)	Step 2: Calling the Procedure set_hotel_offers().
 				
 	Note:	1.  All the above task were performed by using sq1 queries in extract_transform_load.sql script file.
-			  2.  *Database Used: MySQL
+		2.  *Database Used: MySQL
+		3.  The Path specfied for the csv's needs to be changed according to the location of csv's in the executing 		environment.

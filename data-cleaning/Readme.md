@@ -1,4 +1,4 @@
-DATA CLEANING	[Author: Anamik Paul, Email: anamikpaul@gmail.com] *Database Used: MySQL
+DATA CLEANING	[ Author: Anamik Paul, Email: anamikpaul@gmail.com ] *Database Used: MySQL
 -------------------------------------------------------------------------------------------
 
 	A simple procedure named clean_country_code() is prepared to run autonomously and identify the outliers in the original_currency_code field for valid_offers table in bi_data schema.

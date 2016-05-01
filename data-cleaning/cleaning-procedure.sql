@@ -41,5 +41,5 @@ BEGIN
 END $$
 DELIMITER ;
 
-/* calling procedure clean_country_code */
+/* calling procedure clean_country_code() */
 call clean_country_code();

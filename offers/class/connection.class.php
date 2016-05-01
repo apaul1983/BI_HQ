@@ -3,7 +3,7 @@
 	/*
 	
 		Name: class.connection.php
-		Purpose: Database Connection [Singleton Design Pattern]
+		Purpose: Database Connection [ Singleton Design Pattern ]
 		Author: Anamik Paul
 		Email: anamikpaul@gmail.com
 	

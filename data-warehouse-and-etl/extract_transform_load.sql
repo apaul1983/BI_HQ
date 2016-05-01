@@ -11,13 +11,13 @@ create table if not exists `primary_data`.`fx_rate`(id int not null primary key,
 create table if not exists `primary_data`.`lst_currency`(id int not null primary key,code varchar(35) default null,name varchar(100) default null);
 
 /* loading data in fx_rate table from fx_rate.csv */
-load data infile 'c:/xampp/htdocs/BIHQ/csv/fx_rate.csv' into table `primary_data`.`fx_rate` fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+load data infile 'c:/xampp/htdocs/BIHQ/fx_rate.csv' into table `primary_data`.`fx_rate` fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
 
 /* loading data in lst_currency table from lst_currency.csv */
-load data infile 'c:/xampp/htdocs/BIHQ/csv/lst_currency.csv' into table `primary_data`.`lst_currency` fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+load data infile 'c:/xampp/htdocs/BIHQ/lst_currency.csv' into table `primary_data`.`lst_currency` fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
 
 /* loading data in offer table from offer.csv */
-load data infile 'c:/xampp/htdocs/BIHQ/csv/offer.csv' into table `primary_data`.`offer` fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
+load data infile 'c:/xampp/htdocs/BIHQ/offer.csv' into table `primary_data`.`offer` fields terminated by ',' enclosed by '"' lines terminated by '\n' ignore 1 rows;
 
 /* creating database bi_data  */
 create database if not exists `bi_data`;
